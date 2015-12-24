@@ -2,6 +2,60 @@
 
 body {
 	font-family: 'Open Sans', Sans;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	font-weight: 300;
+}
+
+
+/* Navigation */
+.navbar-custom {
+	background-color: #FFFFFF;
+	border-color: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-custom .navbar-brand {
+	color: #3F51BB;
+	font-size: 2.0em;
+	font-weight: bold;
+}
+.navbar-custom .navbar-brand:hover {
+	color: #3F51BB;
+}
+
+.navbar-custom .navbar-right {
+	margin-right: 10px;
+}
+
+.navbar-custom .navbar-nav > li > a {
+	color: #666;
+	text-transform: uppercase;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+	background-color: transparent;
+	color: #3F51BB;
+	border-bottom: 2px solid #3F51BB;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+	background-color: transparent;
+	color: #3F51BB;
+	border-bottom: 2px solid #3F51BB;
+}
+
+.navbar-custom .navbar-toggle {
+  border-color: none;
+  background-color: #3F51BB;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  border-color: none;
+  background-color: #3F51BB;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #FFF;
 }
